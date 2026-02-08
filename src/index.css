@@ -1,0 +1,58 @@
+:root {
+  /* Solidroad-style light palette */
+  --bg: #fafaf9;
+  --bg-white: #ffffff;
+  --surface: #f5f5f4;
+  --border: #e7e5e4;
+  --text: #1c1917;
+  --text-muted: #57534e;
+  --text-subtle: #78716c;
+  --green: #1a7f37;
+  --green-hover: #166b2e;
+  --yellow: #eab308;
+  --yellow-bg: #fef9c3;
+  --yellow-cta: #facc15;
+  --yellow-cta-hover: #eab308;
+  --card-cream: #fefce8;
+  --card-mint: #ecfdf5;
+  --card-sky: #f0f9ff;
+  --footer-bg: #163d21;
+  --footer-text: rgba(255, 255, 255, 0.9);
+  --footer-muted: rgba(255, 255, 255, 0.65);
+
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--text);
+  background-color: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: var(--green);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
